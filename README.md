@@ -42,7 +42,7 @@ This requires:
 - astropy
 - Pillow
 
-Install it with pip from [PyPI](https://pypi.org/package/fits-to-stamps)
+Install it with pip from [PyPI](https://pypi.org/project/fits-to-stamps)
 (preferably in a virtualenv, or use the `--user` flag):
 
 ```
