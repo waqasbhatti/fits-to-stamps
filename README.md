@@ -45,8 +45,18 @@ This requires:
 Install it with pip (preferably in a virtualenv, or use the `--user` flag):
 
 ```
+pip install fits_to_stamps
+```
+
+Or to install the latest version.
+
+```
 pip [--user] install git+https://github.com/waqasbhatti/fits-to-stamps
 ```
+
+Once the installation is done, you'll be able to execute the script as
+`fits-to-stamps` if the virtualenv is active (or `~/.local/bin` for `pip --user`
+installs is in your $PATH).
 
 ## License
 
