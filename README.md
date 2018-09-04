@@ -58,6 +58,16 @@ Once the installation is done, you'll be able to execute the script as
 `fits-to-stamps` if the virtualenv is active (or `~/.local/bin` for `pip --user`
 installs is in your $PATH).
 
+To use it without needing the virtualenv active all the time, add an alias to
+your `~/.bashrc`:
+
+```
+alias fits-to-stamps="/path/to/your/virtualenv/bin/fits-to-stamps"
+```
+
+That should make it run with the correct Python interpreter in the virtualenv.
+
+
 ## License
 
 This is provided under the MIT license. See the LICENSE file for the full text.
