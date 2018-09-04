@@ -21,7 +21,7 @@ with open('requirements.txt') as infd:
 
 setup(
     name='fits_to_stamps',
-    version='0.0.2',
+    version='0.0.3',
     description=('A simple script to convert FITS images to 3 x 3 stamps.'),
     long_description=readme(),
     long_description_content_type="text/markdown",

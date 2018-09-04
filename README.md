@@ -3,11 +3,11 @@ This is a simple script to convert FITS images to stamps.
 ## Usage
 
 ```
-usage: fits_to_stamps.py [-h] [--trimsec TRIMSEC] [--fitsext FITSEXT]
-                         [--stampsize STAMPSIZE]
-                         [--separatorwidth SEPARATORWIDTH]
-                         [--fitsglob FITSGLOB] [--workers WORKERS]
-                         target
+usage: fits-to-stamps [-h] [--trimsec TRIMSEC] [--fitsext FITSEXT]
+                      [--stampsize STAMPSIZE]
+                      [--separatorwidth SEPARATORWIDTH] [--fitsglob FITSGLOB]
+                      [--workers WORKERS]
+                      target
 
 convert a FITS to 3 x 3 stamps.
 
@@ -42,10 +42,11 @@ This requires:
 - astropy
 - Pillow
 
-Install it with pip (preferably in a virtualenv, or use the `--user` flag):
+Install it with pip from [PyPI](https://pypi.org/package/fits-to-stamps)
+(preferably in a virtualenv, or use the `--user` flag):
 
 ```
-pip install fits_to_stamps
+pip [--user] install fits-to-stamps
 ```
 
 Or to install the latest version.
